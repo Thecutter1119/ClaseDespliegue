@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Express backend para Restaurante Clase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "@supabase/supabase-js": "^2.81.1",
+    "cors": "^2.8.5",
+    "pg": "^8.16.3"
+  }
+}
